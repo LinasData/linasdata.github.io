@@ -11,31 +11,25 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Tech Insights with a Furry Twist
-    text: Check this out
+    title: Huge Heart, Short Legs and Data... Be curious and find your analytical treat with
+    text: corgineers
     button: Tell Me More
     buttonlink: "#services"
 
   services:
     title: "Services"
-    text: "Lorem ipsum"
+    text: Only for curious corgi lovers
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
-
-  portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    section: portfolio
-    closebutton: "Close Project"
+      - title: "Corgi Camp Sessions"
+        desc: "Fun, hands-on sessions teaching teams how to find data, transform it and dig into data basics and uncover valuable insights."
+        icon: fas fa-paw #find more at https://fontawesome.com/icons
+      - title: "Corgi Consults"
+        desc: "Corgineers will help sniff out the best data strategies to fetch your business goals."
+        icon: fas fa-comments
+      - title: "Corgi Pack"
+        desc: "Join the Corgi Pack! Every week, get adorable corgi photos paired with expert tips on solving your data challenges, plus curated news on the latest trends in your favorite data topics."
+        icon: fas fa-dog
 
   timeline:
     title: "Timeline"
@@ -45,33 +39,22 @@ en: &DEFAULT_EN
     #start_align: "left"
     events:
       - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        year: "2024-Present"
+        desc: "Together with Gucci giving smiles and teaching about the XXI century gold - data"
         image: assets/img/timeline/1.jpg
         alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
-        alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
-        alt:
-        # you can enforce the alignment
-        align: right
     end: "Be Part <br> of Our <br> Story!"
 
   about:
     title: "About Us"
     text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    body: >
+      We're Linas and Laurita, a husband-and-wife team passionate about our work, creativity, and all things furry.
+
+      Linas is a data expert who is crafting data solutions at Surfshark and previously worked as medical data solutions architect at State Data Agency.
+      Laurita, a food science PhD, brings her love for graphic design to everything she touches, adding a creative spark to our projects.
+      Our team wouldn't be complete without Gucci, our lively corgi and the true inspiration behind "Corgineering."
+      Together, we're a family of three, blending data, design, and corgi charm to create, inspire, and teach about data in fun and interesting way.
     section: about
 
   clients:
@@ -93,13 +76,11 @@ en: &DEFAULT_EN
         logo: assets/img/clients/creative-market.jpg
 
   team:
-    title: "OUR AMAZING TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    title: "Corgineering team"
     section: team
     people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
+      - name: "Linas Kapočius"
+        role: "Data Solutions Architect"
         image: assets/img/team/500x500.jpg
         social:
           - url: https://twitter.com
@@ -108,9 +89,9 @@ en: &DEFAULT_EN
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
+      - name: "Laurita Varnaitė-Kapočė"
+        role: "Graphics Design Guru"
+        image: assets/img/team/500x500.jpg
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
@@ -118,8 +99,8 @@ en: &DEFAULT_EN
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
+      - name: "Gucci"
+        role: "Director of games and fun"
         image: assets/img/team/500x500.jpg
         social:
           - url: https://twitter.com
@@ -131,7 +112,6 @@ en: &DEFAULT_EN
 
   contact:
     title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
